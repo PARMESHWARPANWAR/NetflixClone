@@ -7,7 +7,8 @@ function Banner() {
     return string?.length>n ? string.substr(0,n-1)+'...': string;
   }
   return <header className="banner"
-    style={{backgroundSze:"cover", backgroundImage:`url("https://wallpapercave.com/wp/wp7123665.jpg")`,
+    style={{backgroundSize:"cover",
+    backgroundImage:`url("https://wallpapercave.com/wp/wp7123665.jpg")`,
     backgroundPosition:"center center",
 }}  
   >
@@ -17,7 +18,7 @@ function Banner() {
               <button className="banner_button">Play</button>
               <button className="banner_button">My List</button>
           </div>
-          <h1 className="banner_description">
+          <h1 className="banner_description" style={{ color: 'white' }}>
             {truncate(`This is a test description
           This is a test description This is a test description This is a test description
           This is a test description This is a test description This is a test description
