@@ -27,7 +27,6 @@ function Nav() {
         />
 
         <img className="nav_avatar" src="" alt="twimg.com/profileImage" />
-        <h1>This is nav</h1>
       </div>
     </div>
   );
