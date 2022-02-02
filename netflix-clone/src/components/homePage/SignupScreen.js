@@ -26,13 +26,15 @@ function SignupScreen() {
     e.preventDefault();
 
     auth
-      .signInWithEmailAndPassword(emailRef.current.value, passwordRef.current)
+      .signInWithEmailAndPassword(
+        emailRef.current.value, 
+        passwordRef.current.value)
       .then((authUser) => {
         console.log(authUser);
       })
-      .catch((err) => alert(err.message));
+      .catch((err) => alert("Hiii::=>" + err.message));
   };
-
+   
   return (
     <div className="signupScreen">
       <form>
