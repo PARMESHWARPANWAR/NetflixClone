@@ -5,7 +5,6 @@ import HomeScreen from './components/homePage/HomeScreen';
 function App() {
   return (
     <div className="app">
-      <h1>Lets build netflix</h1>
       < HomeScreen />
     </div>
   );
